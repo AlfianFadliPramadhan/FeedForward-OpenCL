@@ -1,3 +1,5 @@
+//BETA VERSION ._.
+
 #include <iostream>
 #include <fstream>
 #include <cstring>
@@ -223,7 +225,7 @@ int main(int argc, char *argv[]) {
 	// Neural Network Initialization
     init_array();
    
-    for (int sample = 1; sample <= 10/*nTraining*/; ++sample) {
+    for (int sample = 1; sample <= nTraining; ++sample) {
         cout << "Sample " << sample << endl;
         
    // Getting (image, label)
